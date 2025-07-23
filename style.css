@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Define a fonte e o espaçamento global */
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
@@ -73,6 +72,26 @@ input[type="password"]:focus {
     border-color: #3498db;
     box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
 }
+
+input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.invalid {
+    color: grey;
+    font-weight: bold;
+}
+
+.valid {
+    color: blue;
+    font-weight: bold;
+}
+
 
 /* Estilo do botão */
 button {
